@@ -10,6 +10,12 @@
   </p>
 </div>
 
+<!-- hez-current-release:start -->
+**当前公开测试版：Hez 1.0（Build 21）** · [下载](https://hitaing.top/download) · [查看 SHA-256](https://hitaing.top/updates/public-preview.json)
+<!-- hez-current-release:end -->
+
+![Hez 产品概览](assets/hez-overview.png)
+
 ## Hez 是什么
 
 Hez 是一款原生 macOS 效率工具，将四项日常能力统一到一个 App 中，减少零散应用对 Dock 与菜单栏空间的占用，也让常用设置、权限和诊断拥有一致的入口。
@@ -20,6 +26,10 @@ Hez 是一款原生 macOS 效率工具，将四项日常能力统一到一个 Ap
 | 启动台 | 用熟悉的网格与搜索方式快速打开应用 |
 | 平滑鼠标 | 改善外接机械鼠标的滚动手感，并提供独立方向设置 |
 | 右键增强 | 为 Finder 补充复制信息、新建文件、压缩与校验等常用操作 |
+
+![Hez 四项核心功能示意](assets/hez-features.svg)
+
+功能示意图使用演示数据，不包含真实账户或本机信息。实际界面会随公开测试版继续调整。
 
 ## 产品原则
 
