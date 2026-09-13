@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 安全问题
+    url: https://hitaing.top/#contact
+    about: 请使用官网公布的邮箱私下报告，不要公开漏洞或敏感信息。
+  - name: Hez 官网
+    url: https://hitaing.top/
+    about: 查看产品介绍、下载、隐私政策与更新日志。

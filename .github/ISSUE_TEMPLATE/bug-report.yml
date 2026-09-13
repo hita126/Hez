@@ -1,0 +1,67 @@
+name: 问题反馈
+description: 报告可复现的 Hez 功能或界面问题
+title: "[问题] "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢反馈。请先确认正在使用官网提供的最新版本，并避免提交账户、令牌或个人文件内容。
+  - type: input
+    id: version
+    attributes:
+      label: Hez 版本
+      description: 可在“关于 Hez”或“通用 → 诊断信息”查看。
+      placeholder: 例如 1.0（20）
+    validations:
+      required: true
+  - type: input
+    id: system
+    attributes:
+      label: 系统与设备
+      placeholder: 例如 macOS 15.6 / MacBook Pro M1 Pro
+    validations:
+      required: true
+  - type: dropdown
+    id: module
+    attributes:
+      label: 相关功能
+      options:
+        - Hez 主界面与通用设置
+        - Codex 用量
+        - 启动台
+        - 平滑鼠标
+        - 右键增强
+        - 安装与更新
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      description: 请写出从什么状态开始、执行了什么操作。
+      placeholder: |
+        1. 打开……
+        2. 点击……
+        3. 出现……
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 预期结果
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: 实际结果
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: 补充信息
+      description: 可附截图或适合公开的诊断信息，请先移除隐私内容。
