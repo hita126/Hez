@@ -14,7 +14,7 @@
 **当前公开测试版：Hez 1.0（Build 21）** · [下载](https://hitaing.top/download) · [查看 SHA-256](https://hitaing.top/updates/public-preview.json)
 <!-- hez-current-release:end -->
 
-![Hez 产品概览](assets/hez-overview.png)
+![Hez 1.0（Build 21）功能总览](assets/screenshots/hez-overview-build21.png)
 
 ## Hez 是什么
 
@@ -27,9 +27,33 @@ Hez 是一款原生 macOS 效率工具，将四项日常能力统一到一个 Ap
 | 平滑鼠标 | 改善外接机械鼠标的滚动手感，并提供独立方向设置 |
 | 右键增强 | 为 Finder 补充复制信息、新建文件、压缩与校验等常用操作 |
 
-![Hez 四项核心功能示意](assets/hez-features.svg)
+## 界面预览
 
-功能示意图使用演示数据，不包含真实账户或本机信息。实际界面会随公开测试版继续调整。
+以下截图来自 Hez 1.0（Build 21），账户与本机信息已脱敏。实际界面会随版本迭代调整。
+
+### Codex 用量
+
+集中查看 5 小时与每周剩余额度、重置时间和 Token 统计，并提供多种尺寸的桌面小组件。
+
+![Hez Codex 用量页面与桌面小组件](assets/screenshots/codex-usage-build21.png)
+
+### 启动台
+
+通过网格、分类和搜索快速找到应用，也可整理和隐藏不常用项目。
+
+![Hez 启动台](assets/screenshots/launcher-build21.png)
+
+### 平滑鼠标
+
+为外接机械鼠标提供平滑与反转滚动，并可分别控制垂直、水平滚动方向。
+
+![Hez 平滑鼠标设置](assets/screenshots/smooth-mouse-build21.png)
+
+### 右键增强
+
+按需配置 Finder 右键菜单中的复制信息、新建文件、剪切、粘贴及其他常用操作。
+
+![Hez 右键增强设置](assets/screenshots/rightclick-build21.png)
 
 ## 产品原则
 
