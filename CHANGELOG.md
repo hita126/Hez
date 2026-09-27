@@ -5,15 +5,25 @@
 - [查看官网更新日志](https://hitaing.top/changelog)
 - [下载最新公开测试版](https://hitaing.top/download)
 
-## Hez 1.0（Build 24）
+## Hez 1.0（Build 25）
 
-修复 Codex 更新后 Hez 误判未安装、无法读取用量的问题。
+新增可选的微信图片滚轮缩放，其他窗口保持原有平滑滚动。
 
 
-### Codex 用量
+### Mouse
 
-- 兼容新版 ChatGPT 内嵌 Codex CLI 的安装位置，自动发现仍无需手动设置路径。
-- 保留旧版 ChatGPT、Codex App 与独立 CLI 的发现方式。
+- 在 Mouse 设置中开启“微信图片滚轮缩放”后，外接机械鼠标可在识别到的微信图片窗口直接用滚轮缩放。
+- 此选项默认关闭；Finder 快速查看、预览及其他窗口继续使用原有平滑滚动，不接管触控板。
+
+## Hez 1.0（Build 24） · 2026-09-27
+
+**修复 Codex 用量读取**
+
+### 修复
+
+- 兼容新版 ChatGPT 内嵌 Codex CLI 的安装位置，修复更新后误判未安装和无法读取用量的问题。
+- 保留旧版 ChatGPT、Codex App 与独立 CLI 的自动发现方式。
+
 
 ## Hez 1.0（Build 23） · 2026-09-26
 
