@@ -11,7 +11,7 @@
 </div>
 
 <!-- hez-current-release:start -->
-**当前公开测试版：Hez 1.0（Build 26）** · [下载](https://hitaing.top/download) · [查看 SHA-256](https://hitaing.top/updates/public-preview.json)
+**当前公开测试版：Hez 1.0（Build 27）** · [下载](https://hitaing.top/download) · [查看 SHA-256](https://hitaing.top/updates/public-preview.json)
 <!-- hez-current-release:end -->
 
 ![Hez 1.0（Build 21）功能总览](assets/screenshots/hez-overview-build21.png)
@@ -24,7 +24,7 @@ Hez 是一款原生 macOS 效率工具，将四项日常能力统一到一个 Ap
 | --- | --- |
 | Codex 用量 | 在本机读取并展示 Codex 使用额度与刷新状态 |
 | 启动台 | 用熟悉的网格与搜索方式快速打开应用 |
-| 平滑鼠标 | 改善外接机械鼠标的滚动手感，并提供独立方向设置 |
+| 平滑鼠标 | 改善外接机械鼠标的滚动手感，并提供方向、图片缩放和 Dock 点击设置 |
 | 右键增强 | 为 Finder 补充复制信息、新建文件、压缩与校验等常用操作 |
 
 ## 界面预览
@@ -45,7 +45,7 @@ Hez 是一款原生 macOS 效率工具，将四项日常能力统一到一个 Ap
 
 ### 平滑鼠标
 
-为外接机械鼠标提供平滑与反转滚动，并可分别控制垂直、水平滚动方向。
+为外接机械鼠标提供平滑与反转滚动，并可分别控制垂直、水平滚动方向。可选开启微信图片滚轮缩放，以及再次点击前台 App 的 Dock 图标收起当前窗口；后者也支持触控板点击。
 
 ![Hez 平滑鼠标设置](assets/screenshots/smooth-mouse-build21.png)
 
