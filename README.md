@@ -11,14 +11,14 @@
 </div>
 
 <!-- hez-current-release:start -->
-**当前公开测试版：Hez 1.0（Build 28）** · [下载](https://hitaing.top/download) · [查看 SHA-256](https://hitaing.top/updates/public-preview.json)
+**当前公开测试版：Hez 2.0（Build 29）** · [下载](https://hitaing.top/download) · [查看 SHA-256](https://hitaing.top/updates/public-preview.json)
 <!-- hez-current-release:end -->
 
 ![Hez 1.0（Build 21）功能总览](assets/screenshots/hez-overview-build21.png)
 
 ## Hez 是什么
 
-Hez 是一款原生 macOS 效率工具，将四项日常能力统一到一个 App 中，减少零散应用对 Dock 与菜单栏空间的占用，也让常用设置、权限和诊断拥有一致的入口。
+Hez 是一款原生 macOS 效率工具，将六项日常能力统一到一个 App 中，减少零散应用对 Dock 与菜单栏空间的占用，也让常用设置、权限和诊断拥有一致的入口。
 
 | 功能 | 作用 |
 | --- | --- |
@@ -26,6 +26,8 @@ Hez 是一款原生 macOS 效率工具，将四项日常能力统一到一个 Ap
 | 启动台 | 用熟悉的网格与搜索方式快速打开应用 |
 | 平滑鼠标 | 改善外接机械鼠标的滚动手感，并提供方向、图片缩放和 Dock 点击设置 |
 | 右键增强 | 为 Finder 补充复制信息、新建文件、压缩与校验等常用操作 |
+| 截图识图 | 区域与窗口截图、手动滚动长截图、标注和本机文字识别 |
+| 剪贴板 | 本地文本、图片和文件引用历史，支持搜索、收藏、复制与直接粘贴 |
 
 ## 界面预览
 
@@ -55,11 +57,19 @@ Hez 是一款原生 macOS 效率工具，将四项日常能力统一到一个 Ap
 
 ![Hez 右键增强设置](assets/screenshots/rightclick-build21.png)
 
+### 截图识图与剪贴板（Hez 2.0）
+
+截图识图提供标注、隐私遮挡、水印、圆角和本机 OCR；复制、导出及历史均使用最终成图。剪贴板后台记录默认关闭，支持保留时长、容量及单条大小限制，也可清除历史和打开存储文件夹。文件记录仅保留引用，不复制原文件。
+
+![Hez 2.0 截图识图与剪贴板功能示意图，非实机截图](assets/screenshots/hez-2-capture-clipboard-diagram.svg)
+
+上图是功能示意图，不是实机截图。截图留存由独立开关控制，Dev 与公开版本数据隔离；隐私与权限细节见[隐私政策](https://hitaing.top/privacy)。
+
 ## 产品原则
 
 - **原生体验**：优先采用 SwiftUI、AppKit 与 macOS 系统能力。
 - **本地优先**：可在本机完成的处理不上传；权限按功能实际需要使用。
-- **清晰可控**：四项功能可分别启停，权限状态与诊断集中展示。
+- **清晰可控**：六项功能可分别启停，权限状态与诊断集中展示。
 - **安静运行**：主窗口关闭后仍可由菜单栏唤回，不制造无意义通知。
 
 ## 系统要求
