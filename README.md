@@ -11,14 +11,14 @@
 </div>
 
 <!-- hez-current-release:start -->
-**当前公开测试版：Hez 2.0（Build 31）** · [下载](https://hitaing.top/download) · [查看 SHA-256](https://hitaing.top/updates/public-preview.json)
+**当前公开测试版：Hez 2.1（Build 32）** · [下载](https://hitaing.top/download) · [查看 SHA-256](https://hitaing.top/updates/public-preview.json)
 <!-- hez-current-release:end -->
 
 ![Hez 1.0（Build 21）功能总览](assets/screenshots/hez-overview-build21.png)
 
 ## Hez 是什么
 
-Hez 是一款原生 macOS 效率工具，将六项日常能力统一到一个 App 中，减少零散应用对 Dock 与菜单栏空间的占用，也让常用设置、权限和诊断拥有一致的入口。
+Hez 是一款原生 macOS 效率工具，将七项日常能力统一到一个 App 中，减少零散应用对 Dock 与菜单栏空间的占用，也让常用设置、权限和诊断拥有一致的入口。
 
 | 功能 | 作用 |
 | --- | --- |
@@ -28,6 +28,7 @@ Hez 是一款原生 macOS 效率工具，将六项日常能力统一到一个 Ap
 | 右键增强 | 为 Finder 补充复制信息、新建文件、压缩与校验等常用操作 |
 | 截图识图 | 区域与窗口截图、手动滚动长截图、标注和本机文字识别 |
 | 剪贴板 | 本地文本、图片和文件引用历史，支持搜索、收藏、复制与直接粘贴 |
+| 快捷操作 | 全屏清洁模式保护输入，并通过自定义快捷键直接切换音频输出 |
 
 ## 界面预览
 
@@ -65,11 +66,21 @@ Hez 是一款原生 macOS 效率工具，将六项日常能力统一到一个 Ap
 
 上图是功能示意图，不是实机截图。截图留存由独立开关控制，Dev 与公开版本数据隔离；隐私与权限细节见[隐私政策](https://hitaing.top/privacy)。
 
+### 快捷操作（Hez 2.1）
+
+从菜单栏“清洁模式”进入全屏准备画面，按住组合键 2 秒确认；默认 ⌃⌥⌘K，可自定义。清洁中拦截可捕获的键盘、鼠标与触控板点击和滚动，降低支持调节的屏幕亮度。按住同一组合键 2 秒退出，固定备用退出为 ⌃⌥⌘Esc、5 秒。清洁模式按需使用辅助功能与输入监控权限，不禁用 Touch ID、电源键，也不保证拦截所有系统多指手势。
+
+设置音频切换快捷键后，单次按压即可在当前可用输出设备之间循环切换，无需勾选或排序。确认成功后短暂显示设备图标和完整名称；仅切换默认输出，不改麦克风、音量、静音或独立提示音输出，不主动连接蓝牙或 AirPlay。
+
+![Hez 2.1 清洁模式与音频切换功能示意图，非实机截图](assets/screenshots/hez-2-1-quick-actions-diagram.svg)
+
+上图为功能示意图。七项功能统一设置分组、快捷键录制与按钮层级，启停和权限分别集中在“功能开关”与“权限”页面。清洁基本功能及本机 USB 音频切换已有用户 Dev 验证；macOS 14/15、其他设备、多屏亮度及故障恢复的完整实机验证仍在进行。Finder 右键子菜单可悬停展开，点击父项可能关闭菜单，该已知问题本版保留。
+
 ## 产品原则
 
 - **原生体验**：优先采用 SwiftUI、AppKit 与 macOS 系统能力。
 - **本地优先**：可在本机完成的处理不上传；权限按功能实际需要使用。
-- **清晰可控**：六项功能可分别启停，权限状态与诊断集中展示。
+- **清晰可控**：七项功能可分别启停，权限状态与诊断集中展示。
 - **安静运行**：主窗口关闭后仍可由菜单栏唤回，不制造无意义通知。
 
 ## 系统要求
@@ -96,4 +107,4 @@ Hez 是一款原生 macOS 效率工具，将六项日常能力统一到一个 Ap
 
 ---
 
-<sub>Hez is a native macOS utility that brings Codex Usage, Launcher, Mouse and RightClick into one calm, consistent app. Product source code is not currently published in this repository.</sub>
+<sub>Hez is a native macOS utility that brings Codex Usage, Launcher, Mouse, RightClick, Screenshot &amp; OCR, Clipboard and Quick Actions into one calm, consistent app. Product source code is not currently published in this repository.</sub>

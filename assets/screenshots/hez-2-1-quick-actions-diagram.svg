@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="570" viewBox="0 0 1280 570" role="img" aria-labelledby="title desc">
+  <title id="title">Hez 2.1 快捷操作功能示意图</title>
+  <desc id="desc">左侧为清洁模式的两秒长按确认流程；右侧为按一次快捷键循环切换当前可用音频输出。功能示意，非实机截图。</desc>
+  <defs>
+    <linearGradient id="ink" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#9caebd"/><stop offset="1" stop-color="#90aaa0"/></linearGradient>
+    <linearGradient id="light" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#b3c5d2"/><stop offset="1" stop-color="#aac6b7"/></linearGradient>
+  </defs>
+  <rect width="1280" height="570" rx="28" fill="#f3f1ec"/>
+  <g font-family="-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif">
+    <path d="M50 39h12l-8 14h11L49 72l4-16H42z" fill="none" stroke="#b09152" stroke-width="2" stroke-linejoin="round"/>
+    <text x="84" y="63" fill="#34383a" font-size="26" font-weight="600">快捷操作</text>
+    <text x="1196" y="61" text-anchor="end" fill="#7d8183" font-size="16">Hez 2.1 · Quick Actions</text>
+    <rect x="38" y="94" width="588" height="358" rx="20" fill="#080d12"/>
+    <path d="M275 154v133m104-133v133m-104-67h104" fill="none" stroke="url(#ink)" stroke-width="24" stroke-linecap="round"/>
+    <path d="M264 155v144h126v-144" fill="none" stroke="url(#light)" stroke-width="2" opacity=".7"/>
+    <text x="332" y="337" text-anchor="middle" fill="#d9dfe3" font-size="21">清洁前，先长按确认</text>
+    <text x="332" y="368" text-anchor="middle" fill="#89969f" font-size="15">准备 → 按住 2 秒 → 清洁中 → 按住 2 秒退出</text>
+    <rect x="252" y="390" width="160" height="36" rx="9" fill="#1a242b" stroke="#34444e"/>
+    <text x="332" y="414" text-anchor="middle" fill="#d4e0e7" font-size="19">⌃ ⌥ ⌘ K</text>
+    <rect x="650" y="94" width="592" height="358" rx="20" fill="#e7e9e6" stroke="#d5dbd7"/>
+    <text x="946" y="150" text-anchor="middle" fill="#3e4948" font-size="21">按一次，切换声音去向</text>
+    <g fill="none" stroke="#728986" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="765" y="187" width="90" height="58" rx="5"/>
+      <path d="M752 252h116m-104 0 3 5h88l3-5m145-40v-4a26 26 0 0 1 52 0v4m-52 1v26h10v-26zm42 0v26h10v-26z"/>
+      <path d="M886 222h75m-9-7 9 7-9 7"/>
+    </g>
+    <text x="810" y="288" text-anchor="middle" fill="#69716e" font-size="16">内建扬声器</text>
+    <text x="1029" y="288" text-anchor="middle" fill="#69716e" font-size="16">当前可用耳机</text>
+    <rect x="762" y="326" width="368" height="74" rx="17" fill="#f6f7f3" stroke="#cdd5ce"/>
+    <path d="M790 352h5l7-6v28l-7-6h-5zm19 2q8 6 0 12" fill="none" stroke="#66867b" stroke-width="2" stroke-linecap="round"/>
+    <text x="831" y="369" fill="#394740" font-size="18">设备图标与完整名称</text>
+    <text x="946" y="430" text-anchor="middle" fill="#747d77" font-size="14">自定义快捷键 · 自动纳入可用输出 · 短暂提示</text>
+    <text x="40" y="497" fill="#616b6c" font-size="16">七项功能，同一套设置与权限入口。</text>
+    <text x="40" y="532" fill="#8a8e8b" font-size="14">功能示意图，非实机截图；设备支持范围与使用说明请以官网及 App 为准。</text>
+  </g>
+</svg>
