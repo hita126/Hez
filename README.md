@@ -11,7 +11,7 @@
 </div>
 
 <!-- hez-current-release:start -->
-**当前公开测试版：Hez 2.1（Build 33）** · [下载](https://hitaing.top/download) · [查看 SHA-256](https://hitaing.top/updates/public-preview.json)
+**当前公开测试版：Hez 2.1（Build 34）** · [下载](https://hitaing.top/download) · [查看 SHA-256](https://hitaing.top/updates/public-preview.json)
 <!-- hez-current-release:end -->
 
 ![Hez 1.0（Build 21）功能总览](assets/screenshots/hez-overview-build21.png)
@@ -27,12 +27,12 @@ Hez 是一款原生 macOS 效率工具，将七项日常能力统一到一个 Ap
 | 鼠标增强 | 改善外接机械鼠标的滚动手感，并提供方向、侧键、图片缩放和 Dock 点击设置 |
 | 右键增强 | 为 Finder 补充复制信息、新建文件、压缩与校验等常用操作 |
 | 截图识图 | 区域与窗口截图、手动滚动长截图、标注和本机文字识别 |
-| 剪贴板 | 本地文本、图片和文件引用历史，支持搜索、收藏、复制与直接粘贴 |
+| 剪贴板 | 底部面板或可移动常驻窗口，纵向历史与独立预览，支持搜索、收藏、复制与直接粘贴 |
 | 快捷操作 | 全屏清洁模式保护输入，并通过自定义快捷键直接切换音频输出 |
 
 ## 界面预览
 
-以下截图来自 Hez 1.0（Build 21），账户与本机信息已脱敏。实际界面会随版本迭代调整。
+早期实机截图来自 Hez 1.0（Build 21），账户与本机信息已脱敏；新版功能示意分别标注版本和来源。实际界面会随版本迭代调整。
 
 ### Codex 用量
 
@@ -65,6 +65,14 @@ Hez 是一款原生 macOS 效率工具，将七项日常能力统一到一个 Ap
 ![Hez 2.0 截图识图与剪贴板功能示意图，非实机截图](assets/screenshots/hez-2-capture-clipboard-diagram.svg)
 
 上图是功能示意图，不是实机截图。截图留存由独立开关控制，Dev 与公开版本数据隔离；隐私与权限细节见[隐私政策](https://hitaing.top/privacy)。
+
+### 剪贴板常驻窗口（Hez 2.1 Build 34）
+
+通过右上角“窗口面板 / 横向面板”或设置切换布局。窗口顶部标题和空白处均可拖动，宽高可调并在本机记住；切换应用或复制后继续显示。左侧纵向浏览历史，右侧独立预览，搜索、分类、多选与收藏沿用已有操作。关闭按钮、Esc 或再次按快捷键可收起；直接粘贴确认当前输入目标，不自动发送消息。
+
+![Hez 剪贴板常驻窗口，生产视图使用合成内容离屏渲染，非实机截图](assets/screenshots/clipboard-window-build34-synthetic.png)
+
+上图由生产视图使用合成内容离屏渲染，不含用户剪贴板数据，不代表跨系统实机验收。
 
 ### 快捷操作（Hez 2.1）
 
