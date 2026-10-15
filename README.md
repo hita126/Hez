@@ -11,10 +11,15 @@
 </div>
 
 <!-- hez-current-release:start -->
-**当前公开测试版：Hez 2.1（Build 34）** · [下载](https://hitaing.top/download) · [查看 SHA-256](https://hitaing.top/updates/public-preview.json)
+**当前公开测试版：Hez 2.1（Build 35）** · [下载](https://hitaing.top/download) · [查看 SHA-256](https://hitaing.top/updates/public-preview.json)
 <!-- hez-current-release:end -->
 
-![Hez 1.0（Build 21）功能总览](assets/screenshots/hez-overview-build21.png)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/screenshots/hez-home-build35-synthetic-dark.png">
+  <img src="assets/screenshots/hez-home-build35-synthetic-light.png" alt="Hez 2.1（Build 35）首页控制台，生产视图合成状态示意，非实机截图">
+</picture>
+
+首页控制台示意由生产视图与合成状态离屏渲染，不含账户或本机数据。
 
 ## Hez 是什么
 
@@ -34,6 +39,12 @@ Hez 是一款原生 macOS 效率工具，将七项日常能力统一到一个 Ap
 
 早期实机截图来自 Hez 1.0（Build 21），账户与本机信息已脱敏；新版功能示意分别标注版本和来源。实际界面会随版本迭代调整。
 
+### 统一首页与设置（Hez 2.1 Build 35）
+
+“Hez · 盒适”首页集中七项功能的运行状态、独立启停和设置入口，不再单独设置“功能开关”页。七个功能共享设置分组、快捷键录制、按钮层级与自适应布局；高级选项按需展开，权限与诊断集中管理。功能图标、莫兰迪配色与柔和面板同时适配浅色和深色。
+
+剪贴板存储时间与上限可直接点选，窄窗口自动换排；长表单在溢出时显示纵向滚动条，历史内容区继续保留自己的横向浏览。
+
 ### Codex 用量
 
 集中查看 5 小时与每周剩余额度、重置时间和 Token 统计，并提供多种尺寸的桌面小组件。
@@ -48,7 +59,7 @@ Hez 是一款原生 macOS 效率工具，将七项日常能力统一到一个 Ap
 
 ### 鼠标增强
 
-为外接机械鼠标提供平滑与反转滚动，并可分别控制垂直、水平滚动方向。可选开启微信图片滚轮缩放，以及再次点击前台 App 的 Dock 图标收起当前窗口；后者也支持触控板点击。
+为外接机械鼠标提供平滑与反转滚动，并可分别控制垂直、水平滚动方向。按需开启侧键切换桌面空间、微信图片滚轮缩放，以及再次点击前台 App 的 Dock 图标收起当前窗口；后者也支持触控板点击。
 
 ![Hez 鼠标设置历史界面（Build 21，当时名为平滑鼠标）](assets/screenshots/smooth-mouse-build21.png)
 
@@ -72,7 +83,7 @@ Hez 是一款原生 macOS 效率工具，将七项日常能力统一到一个 Ap
 
 ![Hez 剪贴板常驻窗口，生产视图使用合成内容离屏渲染，非实机截图](assets/screenshots/clipboard-window-build34-synthetic.png)
 
-上图由生产视图使用合成内容离屏渲染，不含用户剪贴板数据，不代表跨系统实机验收。
+上图由生产视图使用合成内容离屏渲染，不含用户剪贴板数据。
 
 ### 快捷操作（Hez 2.1）
 
@@ -82,7 +93,7 @@ Hez 是一款原生 macOS 效率工具，将七项日常能力统一到一个 Ap
 
 ![Hez 2.1 清洁模式与音频切换功能示意图，非实机截图](assets/screenshots/hez-2-1-quick-actions-diagram.svg)
 
-上图为功能示意图。七项功能统一设置分组、快捷键录制与按钮层级，启停和权限分别集中在“功能开关”与“权限”页面。清洁基本功能及本机 USB 音频切换已有用户 Dev 验证；macOS 14/15、其他设备、多屏亮度及故障恢复的完整实机验证仍在进行。Finder 右键子菜单可悬停展开，点击父项可能关闭菜单，该已知问题本版保留。
+上图为功能示意图。七项功能统一设置分组、快捷键录制与按钮层级，启停集中在“Hez · 盒适”首页，权限统一在“权限”页面管理。首页同时提供功能状态、独立启停与设置入口，浅色和深色共用克制的莫兰迪图标与柔和面板。
 
 ## 产品原则
 
