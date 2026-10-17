@@ -11,12 +11,12 @@
 </div>
 
 <!-- hez-current-release:start -->
-**当前公开测试版：Hez 2.1（Build 35）** · [下载](https://hitaing.top/download) · [查看 SHA-256](https://hitaing.top/updates/public-preview.json)
+**当前公开测试版：Hez 2.1（Build 36）** · [下载](https://hitaing.top/download) · [查看 SHA-256](https://hitaing.top/updates/public-preview.json)
 <!-- hez-current-release:end -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/screenshots/hez-home-build35-synthetic-dark.png">
-  <img src="assets/screenshots/hez-home-build35-synthetic-light.png" alt="Hez 2.1（Build 35）首页控制台，生产视图合成状态示意，非实机截图">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/screenshots/hez-home-build36-synthetic-dark.png">
+  <img src="assets/screenshots/hez-home-build36-synthetic-light.png" alt="Hez 2.1（Build 36）首页功能就绪状态，生产视图合成状态示意，非实机截图">
 </picture>
 
 首页控制台示意由生产视图与合成状态离屏渲染，不含账户或本机数据。
@@ -39,9 +39,11 @@ Hez 是一款原生 macOS 效率工具，将七项日常能力统一到一个 Ap
 
 早期实机截图来自 Hez 1.0（Build 21），账户与本机信息已脱敏；新版功能示意分别标注版本和来源。实际界面会随版本迭代调整。
 
-### 统一首页与设置（Hez 2.1 Build 35）
+### 首页状态与统一设置（Hez 2.1 Build 36）
 
 “Hez · 盒适”首页集中七项功能的运行状态、独立启停和设置入口，不再单独设置“功能开关”页。七个功能共享设置分组、快捷键录制、按钮层级与自适应布局；高级选项按需展开，权限与诊断集中管理。功能图标、莫兰迪配色与柔和面板同时适配浅色和深色。
+
+首页按实际就绪情况区分可用、部分可用和暂不可用，诊断使用相同口径；返回 App、唤醒或恢复会话时重新检查相关权限。Build 36 同时完善截图 Esc 分层与预览收起、剪贴板跨模块启用确认、配置导入恢复、更新原子替换及 ZIP 预检，详见[完整更新日志](https://hitaing.top/changelog)。
 
 剪贴板存储时间与上限可直接点选，窄窗口自动换排；长表单在溢出时显示纵向滚动条，历史内容区继续保留自己的横向浏览。
 
