@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="660" viewBox="0 0 1280 660" role="img" aria-labelledby="title desc">
+<title id="title">Hez 2.1 Build37 交互更新</title>
+<desc id="desc">截图放大镜与文字校订、剪贴板双布局、音源与系统音效同步，以及每日更新提醒的功能示意。非实机截图。</desc>
+<rect width="1280" height="660" rx="28" fill="#f4f3ef"/>
+<g font-family="-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif" fill="#353c3e">
+<text x="48" y="62" font-size="28" font-weight="600">Hez · 交互更顺手</text>
+<text x="1232" y="60" text-anchor="end" font-size="16" fill="#737b7c">2.1 / Build 37</text>
+<g fill="#fff" stroke="#dfe2df"><rect x="40" y="98" width="388" height="372" rx="20"/><rect x="446" y="98" width="388" height="372" rx="20"/><rect x="852" y="98" width="388" height="372" rx="20"/></g>
+<text x="66" y="139" font-size="20" font-weight="600">截图识图</text>
+<rect x="66" y="161" width="336" height="151" rx="12" fill="#f0edf6"/>
+<g stroke="#8e81a7" stroke-width="3" fill="none" stroke-linecap="round"><path d="M89 197h144m-144 18h112m-112 18h97"/><circle cx="314" cy="227" r="49" fill="#f9f7fd"/><path d="m349 263 23 22"/></g>
+<text x="314" y="235" text-anchor="middle" font-size="24" fill="#7c6b99">2×</text>
+<text x="66" y="350" font-size="18">放大细节 · 自然换行 · 独立拖动</text>
+<text x="66" y="385" font-size="16" fill="#737b7c">OCR 收起保留，失败可原地重试</text>
+<text x="66" y="416" font-size="16" fill="#737b7c">未交付的手动校订，退出前确认</text>
+<text x="472" y="139" font-size="20" font-weight="600">剪贴板</text>
+<rect x="472" y="161" width="336" height="151" rx="12" fill="#edf3f3"/>
+<g fill="#fff" stroke="#82a4a3" stroke-width="2"><rect x="491" y="184" width="69" height="99" rx="8"/><rect x="571" y="184" width="69" height="99" rx="8"/><rect x="682" y="184" width="106" height="25" rx="6"/><rect x="682" y="221" width="106" height="25" rx="6"/><rect x="682" y="258" width="106" height="25" rx="6"/></g>
+<path d="M648 233h24m-5-5 5 5-5 5" fill="none" stroke="#82a4a3" stroke-width="2"/>
+<text x="472" y="350" font-size="18">横向卡片 / 纵向列表</text>
+<text x="472" y="385" font-size="16" fill="#737b7c">主动呼出即可搜索，自动恢复不抢焦</text>
+<text x="472" y="416" font-size="16" fill="#737b7c">模式入口、设置与已用存储更清楚</text>
+<text x="878" y="139" font-size="20" font-weight="600">一键切换音源</text>
+<rect x="878" y="161" width="336" height="151" rx="12" fill="#f5f1e7"/>
+<g font-size="20" text-anchor="middle"><text x="1046" y="208">媒体输出</text><text x="1046" y="265">系统音效</text></g>
+<path d="M1046 217v23m-6-6 6 6 6-6" fill="none" stroke="#b39a60" stroke-width="2"/>
+<text x="878" y="350" font-size="18">一次按压，同步两路声音去向</text>
+<text x="878" y="385" font-size="16" fill="#737b7c">两项确认才报成功，部分完成有说明</text>
+<text x="878" y="416" font-size="16" fill="#737b7c">保留麦克风、音量与静音设置</text>
+<rect x="40" y="492" width="1200" height="100" rx="18" fill="#e8ecec"/>
+<text x="66" y="533" font-size="20" font-weight="600">每日检查更新</text>
+<text x="66" y="565" font-size="16" fill="#687576">24 小时检查一次 · 合适时机在 App 内提醒 · 查看 / 稍后一天 / 跳过此版本</text>
+<text x="1208" y="549" text-anchor="end" font-size="16">下载与安装由你确认</text>
+<text x="48" y="628" font-size="14" fill="#737b7c">功能示意 · 非实机截图 · 无用户数据 · 旧版需先手动升级一次以获得自动提醒</text>
+</g></svg>
