@@ -11,7 +11,7 @@
 </div>
 
 <!-- hez-current-release:start -->
-**当前公开测试版：Hez 2.1（Build 37）** · [下载](https://hitaing.top/download) · [查看 SHA-256](https://hitaing.top/updates/public-preview.json)
+**当前公开测试版：Hez 2.1（Build 38）** · [下载](https://hitaing.top/download) · [查看 SHA-256](https://hitaing.top/updates/public-preview.json)
 <!-- hez-current-release:end -->
 
 <picture>
@@ -39,7 +39,15 @@ Hez 是一款原生 macOS 效率工具，将七项日常能力统一到一个 Ap
 
 早期实机截图来自 Hez 1.0（Build 21），账户与本机信息已脱敏；新版功能示意分别标注版本和来源。实际界面会随版本迭代调整。
 
-### 本次交互更新（Hez 2.1 Build 37）
+### 统一反馈与交互细化（Hez 2.1 Build 38）
+
+配置导入按功能分类预览变化，默认折叠、按需展开。剪贴板与音源提示统一淡入淡出，顶部提示框随内容调整大小，增大文字和绿色勾、红色叉；同时改善右键操作收起、历史索引读取与权限状态刷新。
+
+下图为 Build38 公共结果组件的原生测试渲染（示例文字），用于展示样式，不作为普通窗口背景下无闪烁的实机证明。
+
+![Build38 结果提示组件原生测试渲染](assets/screenshots/hez-build38-result-native.png)
+
+### 截图、音源与更新提醒（Hez 2.1 Build 37）
 
 截图新增放大镜并改善拖动跟随，文字、备注与编号支持自然伸展和换行，标签可独立拖动。OCR 收起后保留本次文字，失败可原地重试；未复制的手动校订在退出或替换前确认。剪贴板主动呼出即可搜索，自动恢复不额外抢焦，横向卡片与纵向列表的入口、设置和存储说明更清楚。
 
