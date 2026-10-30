@@ -11,7 +11,7 @@
 </div>
 
 <!-- hez-current-release:start -->
-**当前公开测试版：Hez 2.1（Build 40）** · [下载](https://hitaing.top/download) · [查看 SHA-256](https://hitaing.top/updates/public-preview.json)
+**当前公开测试版：Hez 2.1（Build 41）** · [下载](https://hitaing.top/download) · [查看 SHA-256](https://hitaing.top/updates/public-preview.json)
 <!-- hez-current-release:end -->
 
 <picture>
