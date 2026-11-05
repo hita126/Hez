@@ -11,7 +11,7 @@
 </div>
 
 <!-- hez-current-release:start -->
-**当前公开测试版：Hez 2.1（Build 41）** · [下载](https://hitaing.top/download) · [查看 SHA-256](https://hitaing.top/updates/public-preview.json)
+**当前公开测试版：Hez 2.1（Build 42）** · [下载](https://hitaing.top/download) · [查看 SHA-256](https://hitaing.top/updates/public-preview.json)
 <!-- hez-current-release:end -->
 
 <picture>
@@ -37,6 +37,11 @@ Hez 是一款原生 macOS 效率工具，将七项日常能力统一到一个 Ap
 | 动作面板 | 键鼠绑定地图，配置 Hez 功能、应用、文件、网页、快捷指令与 Shell 动作 |
 
 ## 界面预览
+
+### 触控板中键与截图钉图（Build 42）
+
+在选定应用中使用 Option 加触控板按压拖动模拟鼠标中键。截图可钉在桌面，多图支持缩放、透明度、圆角、复制、保存和回到编辑；捏合前先点击钉图。
+
 
 ### 动作面板（Hez 2.1 Build 40）
 
