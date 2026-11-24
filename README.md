@@ -1,168 +1,187 @@
 <div align="center">
-  <img src="assets/hez-icon.png" width="120" height="120" alt="Hez 图标">
-  <h1>Hez · 盒适</h1>
-  <p>把常用的 macOS 小能力，收进一个安静、原生、清晰的工具盒。</p>
-  <p>
-    <a href="https://hitaing.top/">官网</a> ·
-    <a href="https://hitaing.top/download">下载</a> ·
-    <a href="https://hitaing.top/changelog">更新日志</a> ·
-    <a href="https://hitaing.top/privacy">隐私政策</a>
-  </p>
+
+<img src="assets/hez-icon.png" width="128" height="128" alt="Hez 图标">
+
+# Hez · 盒适
+
+**把常用的 macOS 小能力，收进一个安静、原生、清晰的工具盒。**
+
+用量统计、启动台、键鼠动作、鼠标与右键增强、截图识图、剪贴板、快捷操作、系统状态，一个 App 全部搞定。
+
+[![最新版本](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhitaing.top%2Fupdates%2Fpublic-preview.json&query=%24.release.version&label=%E6%9C%80%E6%96%B0%E7%89%88%E6%9C%AC&color=0A84FF)](https://hitaing.top/download)
+[![macOS 14+](https://img.shields.io/badge/macOS-14%2B-111111?logo=apple&logoColor=white)](https://hitaing.top/download)
+[![Apple 芯片](https://img.shields.io/badge/Apple%20%E8%8A%AF%E7%89%87-arm64-555555)](https://hitaing.top/download)
+[![免费](https://img.shields.io/badge/%E5%85%8D%E8%B4%B9-%E6%AD%A3%E5%BC%8F%E7%89%88-34C759)](https://hitaing.top/download)
+[![Swift](https://img.shields.io/badge/SwiftUI-%E5%8E%9F%E7%94%9F-F05138?logo=swift&logoColor=white)](#设计原则)
+
+[**下载**](https://hitaing.top/download) · [官网](https://hitaing.top/) · [更新日志](https://hitaing.top/changelog) · [隐私政策](https://hitaing.top/privacy) · [反馈](https://github.com/hita126/Hez/issues)
+
 </div>
 
 <!-- hez-current-release:start -->
-**当前公开测试版：Hez 2.1（Build 43）** · [下载](https://hitaing.top/download) · [查看 SHA-256](https://hitaing.top/updates/public-preview.json)
+**当前版本：Hez 3.0（Build 44）· 免费 · 正式版** · [下载](https://hitaing.top/download) · [查看 SHA-256](https://hitaing.top/updates/public-preview.json)
 <!-- hez-current-release:end -->
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/screenshots/hez-home-build36-synthetic-dark.png">
-  <img src="assets/screenshots/hez-home-build36-synthetic-light.png" alt="Hez 2.1（Build 36）首页功能就绪状态，生产视图合成状态示意，非实机截图">
-</picture>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/screenshots/home-dark.png">
+    <img src="assets/screenshots/home-light.png" width="860" alt="Hez 首页：九项功能的运行状态与独立开关">
+  </picture>
+</p>
 
-首页控制台示意由生产视图与合成状态离屏渲染，不含账户或本机数据。
+## 为什么是 Hez
 
-## Hez 是什么
+Mac 上的小工具越装越多，菜单栏挤满图标，每个都有自己的设置页和权限弹窗。Hez 把日常最常用的九项能力收进同一个 App：
 
-Hez 是一款原生 macOS 效率工具，将七项日常能力统一到一个 App 中，减少零散应用对 Dock 与菜单栏空间的占用，也让常用设置、权限和诊断拥有一致的入口。
+- **一处管理**：每项功能独立启停，权限、诊断、配置导入导出都在同一个地方。
+- **原生手感**：SwiftUI + AppKit 打造，跟随系统深浅色，3.0 起采用统一的液光玻璃界面。
+- **本地优先**：能在本机完成的处理不上传，权限只按功能实际需要申请。
+- **安静运行**：关掉主窗口后在菜单栏待命，不制造无意义的通知。
 
-| 功能 | 作用 |
-| --- | --- |
-| Codex 用量 | 在本机读取并展示 Codex 使用额度与刷新状态 |
-| 启动台 | 用熟悉的网格与搜索方式快速打开应用 |
-| 鼠标增强 | 改善外接机械鼠标的滚动手感，并提供方向、侧键、图片缩放和 Dock 点击设置 |
-| 右键增强 | 为 Finder 补充复制信息、新建文件、压缩与校验等常用操作 |
-| 截图识图 | 区域与窗口截图、手动长截图、文字标注、放大镜及带校订保护的本机 OCR |
-| 剪贴板 | 横向卡片或纵向常驻窗口，主动呼出即可搜索，支持收藏、复制与直接粘贴 |
-| 快捷操作 | 选词翻译、清洁输入保护，以及音频输出和系统音效同步切换 |
-| 动作面板 | 键鼠绑定地图，配置 Hez 功能、应用、文件、网页、快捷指令与 Shell 动作 |
+## 功能一览
+
+| | 功能 | 一句话 |
+| :-: | --- | --- |
+| 📊 | **用量** | Codex 5 小时与每周剩余额度、Claude Code Token 统计，带浮窗与桌面小组件 |
+| 🚀 | **启动台** | 熟悉的网格与搜索，拖拽整理文件夹，适配不同屏幕比例 |
+| ⌨️ | **动作面板** | 一张键鼠地图集中管理快捷键：Hez 功能、App、文件、网页、快捷指令、Shell |
+| 🖱️ | **鼠标增强** | 外接鼠标平滑滚动、方向反转、侧键切换桌面空间、触控板模拟中键 |
+| 📁 | **右键增强** | Finder 右键补上复制信息、新建文件、压缩、校验等常用操作 |
+| ✂️ | **截图识图** | 区域 / 窗口 / 长截图，标注、遮挡、水印、放大镜，本机 OCR，截图钉在桌面 |
+| 📋 | **剪贴板** | 文本、图片、文件历史，搜索、收藏、直接粘贴，底部面板或浮动窗口 |
+| ⚡ | **快捷操作** | 选词翻译、清洁模式（擦键盘时锁定输入）、一键切换音频输出 |
+| 🌡️ | **系统状态** | 菜单栏查看网络、电池、CPU、内存与磁盘（含外接硬盘） |
 
 ## 界面预览
 
-### 触控板中键与截图钉图（Build 42）
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="assets/screenshots/actionpanel-dark.png">
+        <img src="assets/screenshots/actionpanel-light.png" alt="动作面板键鼠地图">
+      </picture>
+      <p align="center"><b>动作面板</b><br><sub>键盘和鼠标上的每个绑定一目了然，点按执行、右键配置</sub></p>
+    </td>
+    <td width="50%" valign="top">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="assets/screenshots/usage-dark.png">
+        <img src="assets/screenshots/usage-light.png" alt="Codex 用量页">
+      </picture>
+      <p align="center"><b>用量</b><br><sub>Codex 额度与 Token 统计，Codex / Claude 一键切换</sub></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="assets/screenshots/screenshot-dark.png">
+        <img src="assets/screenshots/screenshot-light.png" alt="截图识图设置">
+      </picture>
+      <p align="center"><b>截图识图</b><br><sub>快捷键、默认工具、可自定义的标注工具栏与钉图</sub></p>
+    </td>
+    <td width="50%" valign="top">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="assets/screenshots/clipboard-dark.png">
+        <img src="assets/screenshots/clipboard-light.png" alt="剪贴板设置">
+      </picture>
+      <p align="center"><b>剪贴板</b><br><sub>两种显示方式，单击或双击粘贴，按类型记录</sub></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="assets/screenshots/quickactions-dark.png">
+        <img src="assets/screenshots/quickactions-light.png" alt="快捷操作设置">
+      </picture>
+      <p align="center"><b>快捷操作</b><br><sub>清洁模式、音频输出切换、选词翻译</sub></p>
+    </td>
+    <td width="50%" valign="top">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="assets/screenshots/systemstatus-dark.png">
+        <img src="assets/screenshots/systemstatus-light.png" alt="系统状态设置">
+      </picture>
+      <p align="center"><b>系统状态</b><br><sub>菜单栏图标的大小、内容和显示方式都可调</sub></p>
+    </td>
+  </tr>
+</table>
 
-在选定应用中使用 Option 加触控板按压拖动模拟鼠标中键。截图可钉在桌面，多图支持缩放、透明度、圆角、复制、保存和回到编辑；捏合前先点击钉图。
+<sub>以上均为 Hez 3.0 正式版实机截图，按系统深浅色自动切换；账号信息已脱敏。</sub>
 
+## 安装
 
-### 动作面板（Hez 2.1 Build 40）
+1. 从[官网下载页](https://hitaing.top/download)下载 DMG，可用页面上的 SHA-256 校验完整性。
+2. 打开 DMG，把 **Hez** 拖进“应用程序”。
+3. 首次打开如被拦截：**系统设置 → 隐私与安全性 → 仍要打开**（DMG 和 App 各需放行一次）。
+4. 按 Hez “权限”页授予 **辅助功能** 与 **输入监控**；需要 Finder 右键增强时，在系统扩展里启用 Hez RightClick。
 
-用键盘与鼠标操作地图集中查看绑定：点按执行、右键配置，可搜索、分组和整理。支持 Hez 功能、App、文件、文件夹、网页、快捷指令与 Shell 脚本；拖动调整绑定，冲突时恢复。单键与组合键唤起按需设置，鼠标区展示已有侧键和滚轮设置。
+> Hez 免费提供，使用 Apple Development 证书签名，未经 Apple 公证，所以首次打开需要手动放行。请不要为此关闭 macOS 的全局安全检查。
 
-![动作面板键鼠绑定功能示意，非实机截图](assets/screenshots/hez-build40-action-map.svg)
+之后的版本可在 Hez 内“检查更新”一键安装，安装前会校验 SHA-256、签名团队与 App 身份。
 
-上图是示意绑定，名称与键位由用户配置。脚本需查看并明确启用，导入不会自动执行；资源失效可重新关联。面板支持自动、浅色与深色外观，复用统一淡入淡出和原生菜单。
+**系统要求**：macOS 14 或更高版本，Apple 芯片（arm64）。选词翻译需要 macOS 15+。
 
-本版同时改善打开按钮与面板交接，并补充更新后的历史备份扩展登记清理。系统小组件库缓存仍可能需要确认后刷新，不会每次更新自动重启通知中心。
+## 3.0 有什么新变化
 
+- **全新液光玻璃界面**：菜单栏面板、设置页、浮层与结果提示风格统一；设置页去掉大段说明，整行可点。
+- **用量新增 Claude**：读取本机 Claude Code 的 Token 用量，有独立浮窗和桌面小组件。
+- **系统状态**：外接硬盘与本机磁盘同样显示；CPU 与内存显示“用量 / 总量 · 已用%”。
+- **更轻、更稳**：剪贴板图片后台处理、多屏平滑滚动更稳、启动台内存更省、右键菜单连续操作更可靠。
 
-早期实机截图来自 Hez 1.0（Build 21），账户与本机信息已脱敏；新版功能示意分别标注版本和来源。实际界面会随版本迭代调整。
+从 2.x 升级会保留现有设置，2.x 导出的配置仍可导入。完整记录见 [CHANGELOG.md](CHANGELOG.md) 或[官网更新日志](https://hitaing.top/changelog)。
 
-### 统一反馈与交互细化（Hez 2.1 Build 38）
+## 设计原则
 
-配置导入按功能分类预览变化，默认折叠、按需展开。剪贴板与音源提示统一淡入淡出，顶部提示框随内容调整大小，增大文字和绿色勾、红色叉；同时改善右键操作收起、历史索引读取与权限状态刷新。
+- **原生体验**：优先使用 SwiftUI、AppKit 与 macOS 系统能力，不套网页壳。
+- **本地优先**：可在本机完成的处理不上传；没有账号体系，没有统计 SDK。
+- **清晰可控**：九项功能分别启停，权限状态与诊断集中展示。
+- **轻量**：功能多而不杂，关闭的功能会释放对应的后台任务。
 
-下图为 Build38 公共结果组件的原生测试渲染（示例文字），用于展示样式，不作为普通窗口背景下无闪烁的实机证明。
+## 隐私
 
-![Build38 结果提示组件原生测试渲染](assets/screenshots/hez-build38-result-native.png)
+Hez 不收集个人数据。剪贴板、截图、用量快照、动作面板配置都只保存在你的 Mac 上；联网只有版本检查、Codex 用量（经本机 Codex 服务连接 OpenAI）和你主动触发的操作。详见 [PRIVACY.md](PRIVACY.md) 与[官网隐私政策](https://hitaing.top/privacy)。
 
-### 截图、音源与更新提醒（Hez 2.1 Build 37）
+## 常见问题
 
-截图新增放大镜并改善拖动跟随，文字、备注与编号支持自然伸展和换行，标签可独立拖动。OCR 收起后保留本次文字，失败可原地重试；未复制的手动校订在退出或替换前确认。剪贴板主动呼出即可搜索，自动恢复不额外抢焦，横向卡片与纵向列表的入口、设置和存储说明更清楚。
+<details>
+<summary><b>为什么打开时提示“无法验证开发者”？</b></summary>
 
-一键切换音源同时同步系统音效，两项都确认后才显示成功；无法同步音效时明确提示部分完成。新增默认每 24 小时一次的版本检查，可关闭、延后一天或跳过当前版本；发现新版在主窗口的合适时机提醒，下载与安装仍需确认。旧版用户需先手动升级到本版，之后才能收到自动更新提醒。
+Hez 是免费软件，没有走 Apple 付费公证流程。按上面安装第 3 步在“隐私与安全性”里放行即可，只需一次。
+</details>
 
-![Hez 2.1 Build37 截图、剪贴板、音源与更新提醒功能示意，非实机截图](assets/screenshots/hez-build37-interactions-diagram.svg)
+<details>
+<summary><b>支持 Intel Mac 吗？</b></summary>
 
-### 首页状态与统一设置（Hez 2.1 Build 36）
+目前只提供 Apple 芯片（arm64）版本。
+</details>
 
-“Hez · 盒适”首页集中七项功能的运行状态、独立启停和设置入口，不再单独设置“功能开关”页。七个功能共享设置分组、快捷键录制、按钮层级与自适应布局；高级选项按需展开，权限与诊断集中管理。功能图标、莫兰迪配色与柔和面板同时适配浅色和深色。
+<details>
+<summary><b>授权了权限，功能还是不工作？</b></summary>
 
-首页按实际就绪情况区分可用、部分可用和暂不可用，诊断使用相同口径；返回 App、唤醒或恢复会话时重新检查相关权限。Build 36 同时完善截图 Esc 分层与预览收起、剪贴板跨模块启用确认、配置导入恢复、更新原子替换及 ZIP 预检，详见[完整更新日志](https://hitaing.top/changelog)。
+以 Hez “权限”页显示为准：辅助功能和输入监控都要显示已授权。更新后系统偶尔需要重新勾选一次；仍有问题请在 Issue 里附上“通用 → 诊断信息”中适合公开的内容。
+</details>
 
-剪贴板存储时间与上限可直接点选，窄窗口自动换排；长表单在溢出时显示纵向滚动条，历史内容区继续保留自己的横向浏览。
+<details>
+<summary><b>源码开放吗？</b></summary>
 
-### Codex 用量
+这个仓库用于发布说明、版本记录和公开反馈。Hez 的应用源码目前没有公开，也没有授予开源许可。
+</details>
 
-集中查看 5 小时与每周剩余额度、重置时间和 Token 统计，并提供多种尺寸的桌面小组件。
+## 反馈
 
-![Hez Codex 用量页面与桌面小组件](assets/screenshots/codex-usage-build21.png)
+欢迎在 [Issues](https://github.com/hita126/Hez/issues) 提交问题或建议，最好附上 macOS 版本、Mac 型号、Hez 版本与 Build、复现步骤。请勿在公开 Issue 中贴出账号、令牌、个人文件或完整本机路径；安全问题请看 [SECURITY.md](SECURITY.md)。
 
-### 启动台
-
-通过网格、分类和搜索快速找到应用，也可整理和隐藏不常用项目。
-
-![Hez 启动台](assets/screenshots/launcher-build21.png)
-
-### 鼠标增强
-
-为外接机械鼠标提供平滑与反转滚动，并可分别控制垂直、水平滚动方向。按需开启侧键切换桌面空间、微信图片滚轮缩放，以及再次点击前台 App 的 Dock 图标收起当前窗口；后者也支持触控板点击。
-
-![Hez 鼠标设置历史界面（Build 21，当时名为平滑鼠标）](assets/screenshots/smooth-mouse-build21.png)
-
-### 右键增强
-
-按需配置 Finder 右键菜单中的复制信息、新建文件、剪切、粘贴及其他常用操作。
-
-![Hez 右键增强设置](assets/screenshots/rightclick-build21.png)
-
-### 截图识图与剪贴板
-
-截图识图提供标注、隐私遮挡、水印、圆角和本机 OCR；复制、导出及历史均使用最终成图。剪贴板后台记录默认关闭，支持保留时长、容量及单条大小限制，也可清除历史和打开存储文件夹。文件记录仅保留引用，不复制原文件。
-
-![Hez 2.0 截图识图与剪贴板功能示意图，非实机截图](assets/screenshots/hez-2-capture-clipboard-diagram.svg)
-
-上图是功能示意图，不是实机截图。截图留存由独立开关控制，Dev 与公开版本数据隔离；隐私与权限细节见[隐私政策](https://hitaing.top/privacy)。
-
-### 剪贴板常驻窗口（Hez 2.1 Build 34）
-
-通过右上角“窗口面板 / 横向面板”或设置切换布局。窗口顶部标题和空白处均可拖动，宽高可调并在本机记住；切换应用或复制后继续显示。左侧纵向浏览历史，右侧独立预览，搜索、分类、多选与收藏沿用已有操作。关闭按钮、Esc 或再次按快捷键可收起；直接粘贴确认当前输入目标，不自动发送消息。
-
-![Hez 剪贴板常驻窗口，生产视图使用合成内容离屏渲染，非实机截图](assets/screenshots/clipboard-window-build34-synthetic.png)
-
-上图由生产视图使用合成内容离屏渲染，不含用户剪贴板数据。
-
-### 快捷操作（Hez 2.1）
-
-选中文字后按自定义快捷键呼出 Hez 翻译，也可从菜单栏“翻译”打开后手动输入。支持双栏显示、自动识别、语言切换与复制；使用苹果翻译，需 macOS 15+，语言包由你确认下载。辅助功能用于读取选区，不开放选区接口的应用可通过普通复制兼容。原文与译文不新增历史，也不上传至 Hez 自建服务。菜单栏设置可独立显示清洁模式与翻译。
-
-![Hez 翻译生产界面示意，使用合成文字，非实机截图](assets/screenshots/hez-build39-translation-synthetic.png)
-
-从菜单栏“清洁模式”进入全屏准备画面，按住组合键 2 秒确认；默认 ⌃⌥⌘K，可自定义。清洁中拦截可捕获的键盘、鼠标与触控板点击和滚动，降低支持调节的屏幕亮度。按住同一组合键 2 秒退出，固定备用退出为 ⌃⌥⌘Esc、5 秒。清洁模式按需使用辅助功能与输入监控权限，不禁用 Touch ID、电源键，也不保证拦截所有系统多指手势。
-
-设置音频切换快捷键后，单次按压即可在当前可用输出设备之间循环切换，无需勾选或排序。确认成功后短暂显示设备图标和完整名称；同步默认音频输出和系统音效输出，两项都确认后才显示成功；设备不支持音效或同步失败时明确提示部分完成。不改麦克风、音量或静音，不主动连接蓝牙或 AirPlay。
-
-![Hez 2.1 清洁模式与音频切换功能示意图，非实机截图](assets/screenshots/hez-2-1-quick-actions-diagram.svg)
-
-上图为功能示意图。七项功能统一设置分组、快捷键录制与按钮层级，启停集中在“Hez · 盒适”首页，权限统一在“权限”页面管理。首页同时提供功能状态、独立启停与设置入口，浅色和深色共用克制的莫兰迪图标与柔和面板。
-
-## 产品原则
-
-- **原生体验**：优先采用 SwiftUI、AppKit 与 macOS 系统能力。
-- **本地优先**：可在本机完成的处理不上传；权限按功能实际需要使用。
-- **清晰可控**：七项功能可分别启停，权限状态与诊断集中展示。
-- **安静运行**：主窗口关闭后仍可由菜单栏唤回，不制造无意义通知。
-
-## 系统要求
-
-- macOS 14 或更高版本
-- Apple 芯片 Mac（arm64）
-
-当前提供的是未公证公开测试版。首次安装及启用 Finder、输入监听等系统能力时，请以[下载页](https://hitaing.top/download)的说明为准。
-
-## 反馈与建议
-
-欢迎通过 [Issues](https://github.com/hita126/Hez/issues) 提交问题或功能建议。报告问题时，建议附上：
-
-- macOS 与 Mac 型号
-- Hez 版本和 Build
-- 可复现步骤与实际结果
-- “通用 → 诊断信息”中适合公开的内容
-
-请勿在公开 Issue 中提交账户信息、访问令牌、个人文件内容或其他敏感数据。安全问题请查看 [SECURITY.md](SECURITY.md)。
-
-## 关于源码
-
-此仓库用于 Hez 的产品说明、版本信息与公开反馈管理。Hez 应用源码目前未在此仓库公开，也没有授予开源许可。
+如果 Hez 帮到了你，点个 ⭐ Star 就是最大的支持。
 
 ---
 
-<sub>Hez is a native macOS utility that brings Codex Usage, Launcher, Mouse, RightClick, Screenshot &amp; OCR, Clipboard and Quick Actions into one calm, consistent app. Product source code is not currently published in this repository.</sub>
+<details>
+<summary><b>English</b></summary>
+
+**Hez** is a free, native macOS utility that brings nine everyday tools into one calm, consistent app: Codex & Claude usage, Launcher, an Action Panel for keyboard and mouse bindings, Mouse enhancements, Finder RightClick actions, Screenshot & OCR, Clipboard history, Quick Actions (translation, Clean Mode, audio output switching) and System Status.
+
+- Requires macOS 14+ on Apple silicon.
+- Download from [hitaing.top/download](https://hitaing.top/download). The app is signed but not notarized, so allow it once in *System Settings → Privacy & Security*.
+- Local-first: no accounts, no analytics SDKs. See the [privacy policy](https://hitaing.top/privacy).
+- This repository hosts release notes and public feedback; the app source code is not published here.
+
+</details>
