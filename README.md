@@ -109,7 +109,7 @@ Mac 上的小工具越装越多，菜单栏挤满图标，每个都有自己的�
 
 ## 安装
 
-1. 从[官网下载页](https://hitaing.top/download)下载 DMG，可用页面上的 SHA-256 校验完整性。
+1. 从[官网下载页](https://hitaing.top/download)或 [GitHub Releases](https://github.com/hita126/Hez/releases/latest) 下载 DMG（附件里的 `Hez-x.x-xx.dmg`，不是 Source code），可用 SHA-256 校验完整性。
 2. 打开 DMG，把 **Hez** 拖进“应用程序”。
 3. 首次打开如被拦截：**系统设置 → 隐私与安全性 → 仍要打开**（DMG 和 App 各需放行一次）。
 4. 按 Hez “权限”页授予 **辅助功能** 与 **输入监控**；需要 Finder 右键增强时，在系统扩展里启用 Hez RightClick。
