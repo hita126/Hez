@@ -24,8 +24,8 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/screenshots/home-dark.png">
-    <img src="assets/screenshots/home-light.png" width="860" alt="Hez 首页：九项功能的运行状态与独立开关">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/screenshots/actionpanel-dark.png">
+    <img src="assets/screenshots/actionpanel-light.png" width="860" alt="Hez 动作面板：键盘与鼠标上的每个绑定一目了然">
   </picture>
 </p>
 
@@ -56,56 +56,56 @@ Mac 上的小工具越装越多，菜单栏挤满图标，每个都有自己的�
 
 <table>
   <tr>
-    <td width="50%" valign="top">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="assets/screenshots/actionpanel-dark.png">
-        <img src="assets/screenshots/actionpanel-light.png" alt="动作面板键鼠地图">
-      </picture>
-      <p align="center"><b>动作面板</b><br><sub>键盘和鼠标上的每个绑定一目了然，点按执行、右键配置</sub></p>
+    <td width="50%" valign="top" align="center">
+      <img src="assets/screenshots/systemstatus.gif" width="320" alt="系统状态菜单栏面板：打开、查看 CPU 详情、返回">
+      <p align="center"><b>系统状态</b><br><sub>菜单栏一点就开：电池、网络、声音、显示器、蓝牙，CPU / 内存 / 硬盘还能展开看详情</sub></p>
     </td>
-    <td width="50%" valign="top">
+    <td width="50%" valign="top" align="center">
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="assets/screenshots/usage-dark.png">
-        <img src="assets/screenshots/usage-light.png" alt="Codex 用量页">
+        <source media="(prefers-color-scheme: dark)" srcset="assets/screenshots/usage-widgets-dark.png">
+        <img src="assets/screenshots/usage-widgets-light.png" width="300" alt="Codex 与 Claude 用量桌面小组件">
       </picture>
-      <p align="center"><b>用量</b><br><sub>Codex 额度与 Token 统计，Codex / Claude 一键切换</sub></p>
+      <p align="center"><b>AI 用量</b><br><sub>Codex 5 小时 / 每周剩余额度、Claude Code Token，直接放在桌面上</sub></p>
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="assets/screenshots/screenshot-dark.png">
-        <img src="assets/screenshots/screenshot-light.png" alt="截图识图设置">
-      </picture>
-      <p align="center"><b>截图识图</b><br><sub>快捷键、默认工具、可自定义的标注工具栏与钉图</sub></p>
-    </td>
-    <td width="50%" valign="top">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="assets/screenshots/clipboard-dark.png">
-        <img src="assets/screenshots/clipboard-light.png" alt="剪贴板设置">
-      </picture>
-      <p align="center"><b>剪贴板</b><br><sub>两种显示方式，单击或双击粘贴，按类型记录</sub></p>
+    <td colspan="2" valign="top" align="center">
+      <img src="assets/screenshots/launcher.gif" width="820" alt="启动台：唤起、翻页、打开文件夹">
+      <p align="center"><b>启动台</b><br><sub>快捷键唤起，网格、分页、文件夹，输入即搜</sub></p>
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="assets/screenshots/quickactions-dark.png">
-        <img src="assets/screenshots/quickactions-light.png" alt="快捷操作设置">
-      </picture>
-      <p align="center"><b>快捷操作</b><br><sub>清洁模式、音频输出切换、选词翻译</sub></p>
+    <td colspan="2" valign="top" align="center">
+      <img src="assets/screenshots/clipboard.gif" width="820" alt="剪贴板底部面板">
+      <p align="center"><b>剪贴板</b><br><sub>快捷键从底部弹出，文本、图片、文件历史一排排开，单击即粘贴</sub></p>
     </td>
-    <td width="50%" valign="top">
+  </tr>
+  <tr>
+    <td width="50%" valign="top" align="center">
+      <img src="assets/screenshots/screenshot.gif" width="400" alt="截图识图：框选区域后出现标注工具栏">
+      <p align="center"><b>截图识图</b><br><sub>快捷键框选，标注、遮挡、放大镜、识字、钉图都在一条工具栏里</sub></p>
+    </td>
+    <td width="50%" valign="top" align="center">
+      <img src="assets/screenshots/translate-light.png" width="400" alt="选词翻译窗口">
+      <p align="center"><b>选词翻译</b><br><sub>选中文字按快捷键，原文与译文并排，一键复制</sub></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top" align="center">
+      <img src="assets/screenshots/rightclick-light.png" width="400" alt="Finder 右键菜单中的 Hez 操作">
+      <p align="center"><b>右键增强</b><br><sub>Finder 右键直接复制路径、文件名，压缩为 ZIP、计算 SHA-256</sub></p>
+    </td>
+    <td width="50%" valign="top" align="center">
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="assets/screenshots/systemstatus-dark.png">
-        <img src="assets/screenshots/systemstatus-light.png" alt="系统状态设置">
+        <source media="(prefers-color-scheme: dark)" srcset="assets/screenshots/menubar-dark.png">
+        <img src="assets/screenshots/menubar-light.png" width="300" alt="Hez 菜单栏面板">
       </picture>
-      <p align="center"><b>系统状态</b><br><sub>菜单栏图标的大小、内容和显示方式都可调</sub></p>
+      <p align="center"><b>菜单栏</b><br><sub>八个常用功能一键直达，九项功能运行状态一眼看清</sub></p>
     </td>
   </tr>
 </table>
 
-<sub>以上均为 Hez 3.0 正式版实机截图，按系统深浅色自动切换；账号信息已脱敏。</sub>
+<sub>以上均为 Hez 3.0 正式版实机截图与录屏，图片支持时按系统深浅色切换；Wi-Fi 名称、账号与其他个人信息已模糊处理，演示内容为示例数据。</sub>
 
 ## 安装
 
