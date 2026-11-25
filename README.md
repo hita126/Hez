@@ -19,7 +19,7 @@
 </div>
 
 <!-- hez-current-release:start -->
-**当前版本：Hez 3.0（Build 47）· 免费 · 正式版** · [下载](https://hitaing.top/download) · [查看 SHA-256](https://hitaing.top/updates/public-preview.json)
+**当前版本：Hez 3.0（Build 48）· 免费 · 正式版** · [下载](https://hitaing.top/download) · [查看 SHA-256](https://hitaing.top/updates/public-preview.json)
 <!-- hez-current-release:end -->
 
 <p align="center">
